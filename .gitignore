@@ -1,0 +1,5 @@
+.DS_Store
+.zshrc
+.ipynb_checkpoints/
+__pycache__/
+class_files/
