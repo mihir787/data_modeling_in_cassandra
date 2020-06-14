@@ -1,0 +1,10 @@
+# https://github.com/thelastpickle/docker-cassandra-bootstrap/blob/master/docker-compose.yml (reference)
+version: '3'
+services:
+  cassandra:
+    image: cassandra
+    container_name: mihir_cassandra
+    ports:
+      - '9042:9042'
+    volumes:
+      - ./target/database/data:/var/lib/cassandra
